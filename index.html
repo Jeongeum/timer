@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Documents</title>
+</head>
+
+<body>
+    <article id="app">
+        <h1 class="tit-app">
+            <img src="./img/weniv-logo.svg" alt="위니브 로고" class="img-item">
+        </h1>
+
+        <section class="timer">
+            <h2 class="tit-timer">TIMER</h2>
+            <form>
+                <div class="timer-cont">
+                    <div class="timer-compornent">
+                        <label for="HRS">HRS</label>
+                        <input type="text" id="HRS" value="00">
+                    </div>
+                    <div>
+                        <label for="MIN">MIN</label>
+                        <input type="text" id="MIN" value="00">
+                    </div>
+                    <div>
+                        <label for="SEC">SEC</label>
+                        <input type="text" id="SEC" value="00">
+                    </div>
+                </div>
+                <button type="button" class="start-btn">START</button>
+                <button type="reset" class="reset-btn">RESET</button>
+            </form>
+        </section>
+    </article>
+    <script src="./js/index.js"></script>
+</body>
+
+</html>

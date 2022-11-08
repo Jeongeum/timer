@@ -1,0 +1,90 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+label {
+    display: block;
+}
+
+body {
+    font-family: 'Pretendard';
+    background: radial-gradient(96.74% 276.79% at 3.59% 5.28%, #F0F4FF 0%, #A5B6EE 100%) no-repeat;
+    width: 100vw;
+    height: 100vh;
+}
+
+#app {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* 로고 스타일 */
+
+#app .tit-app {
+    margin: 72px 0 60px;
+}
+
+#app .tit-app .img-item {
+    display: block;
+    width: 244px;
+}
+
+/* 타이머 */
+#app .timer {
+    width: 400px;
+    text-align: center;
+    background: linear-gradient(144.07deg, #5572BB 2.13%, #374B7C 102.97%);
+    box-shadow: 20px 20px 60px 10px rgba(55, 75, 124, 0.4);
+    border-radius: 16px;
+}
+
+#app .timer .tit-timer {
+    color: #fff;
+    width: 312px;
+    padding: 48px 0 23px;
+    margin: 0 auto;
+    border-bottom: 1px solid #3D538A;
+}
+
+.timer .timer-cont {
+    display: flex;
+    margin-top: 33px;
+    color: #A5B6EE;
+}
+
+.timer .timer-cont input {
+    width: 80px;
+    height: 80px;
+    border: 1px solid #354971;
+    border-radius: 4px;
+    background: linear-gradient(314.28deg, #304577 0%, #4C65A0 83%);
+    color: #fff;
+    font-size: 40px;
+    text-align: center;
+}
+
+.timer .timer-cont div {
+    width: 80px;
+    margin: auto;
+}
+
+
+/* 버튼 스타일 */
+#app .timer button {
+    padding: 16px 23px;
+    margin: 40px 0;
+    background-color: #324577;
+    border-radius: 50px;
+    border: none;
+    box-shadow: inset 1px 1px 1px rgba(0, 0, 0, 0.05);
+    color: #617199;
+    cursor: pointer;
+}
+
+#app .timer .start-btn {
+    margin-right: 12px;
+}
